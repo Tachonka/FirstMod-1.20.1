@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless" ,
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "first_mod:cheezit_block"
+    }
+  ],
+  "result": {
+    "item": "first_mod:cheezit",
+    "count": 8
+  }
+}

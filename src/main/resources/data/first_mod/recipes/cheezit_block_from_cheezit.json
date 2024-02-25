@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#s#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "first_mod:cheezit"
+    },
+    "s": {
+      "item": "first_mod:goldfish"
+    }
+  },
+  "result": {
+    "item": "first_mod:cheezit_block"
+  }
+}

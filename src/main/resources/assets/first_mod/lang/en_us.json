@@ -2,5 +2,8 @@
   "item.first_mod.cheezit": "Cheezit",
   "item.first_mod.goldfish": "Goldfish",
 
+  "block.first_mod.cheezit_block": "Cheezit Block",
+  "block.first_mod.sound_block": "Sound Block",
+
   "creative_tab.first_mod": "Mod Item Tab"
 }
