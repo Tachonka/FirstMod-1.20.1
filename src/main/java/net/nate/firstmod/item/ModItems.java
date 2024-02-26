@@ -7,6 +7,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.nate.firstmod.FirstMod;
+import net.nate.firstmod.item.custom.KillaArmorItem;
 import net.nate.firstmod.item.custom.ModArmorMaterials;
 
 public class ModItems {
@@ -20,7 +21,7 @@ public class ModItems {
             ()-> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> killa_helmet = ITEMS.register("killa_helmet",
-            ()-> new ArmorItem(ModArmorMaterials.killa, ArmorItem.Type.HELMET, new Item.Properties()));
+            ()-> new KillaArmorItem(ModArmorMaterials.killa, ArmorItem.Type.HELMET, new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

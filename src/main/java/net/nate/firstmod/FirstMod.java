@@ -18,6 +18,7 @@ import net.nate.firstmod.block.ModBlocks;
 import net.nate.firstmod.item.ModCreativeModeTabs;
 import net.nate.firstmod.item.ModItems;
 import org.slf4j.Logger;
+import software.bernie.geckolib.GeckoLib;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(FirstMod.MODID)
@@ -37,6 +38,8 @@ public class FirstMod
         ModItems.register(modEventBus);
 
         ModBlocks.register(modEventBus);
+
+        GeckoLib.initialize();
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
