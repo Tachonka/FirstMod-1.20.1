@@ -63,6 +63,9 @@ public class FirstMod
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.goldfish);
         }
+        if(event.getTabKey() == CreativeModeTabs.COMBAT) {
+            event.accept(ModItems.killa_helmet);
+        }
 
     }
 

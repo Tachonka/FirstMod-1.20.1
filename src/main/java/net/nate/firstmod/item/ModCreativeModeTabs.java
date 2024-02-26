@@ -24,6 +24,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.goldfish.get());
                         output.accept(ModBlocks.cheezit_block.get());
                         output.accept(ModBlocks.sound_block.get());
+                        output.accept(ModItems.killa_helmet.get());
 
                         output.accept(Items.BELL);
 

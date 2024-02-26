@@ -20,7 +20,7 @@ public class SoundBlock extends Block {
     public InteractionResult use(BlockState pState, Level pLevel, BlockPos pPos, Player pPlayer, InteractionHand pHand, BlockHitResult pHit)
     {
         pLevel.playSound(pPlayer, pPos, SoundEvents.NOTE_BLOCK_BANJO.get(), SoundSource.BLOCKS,
-                1f, 1f);
+                10f, 10f);
         return InteractionResult.SUCCESS;
     }
 }
